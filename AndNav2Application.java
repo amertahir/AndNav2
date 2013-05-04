@@ -40,6 +40,7 @@ public class AndNav2Application extends Application implements TimeConstants{
 		editor.putLong(PrefSettings.KEY_CHECK_INTERVAL, SECONDSPERHOUR * 2 * 1000L); // milliseconds
 		editor.putString(PrefSettings.KEY_CHECK_URI, VERSIONS_URL);
 		editor.commit();
+		System.out.println("HAHAHAHHAHAHAHAH");
 		//		}
 
 		//reschedule the checks - we need to do this if the settings have changed (as above)
